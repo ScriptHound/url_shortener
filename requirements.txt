@@ -4,3 +4,5 @@ python-dotenv
 pytest
 gunicorn
 uvicorn
+jinja2
+python-multipart

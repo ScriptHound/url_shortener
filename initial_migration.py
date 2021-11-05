@@ -6,7 +6,7 @@ connection.call('box.schema.space.create', ("urls",))
 space_format = {
     {"name": 'id', "type": 'unsigned'},
     {"name": 'link', "type": 'string'}}
-connection.call("my_space:alter", {"format": space_format})
+connection.call("my_space:format", {"format": space_format})
 connection.call(
     "box.schema.sequence.create",
     ('id_seq', {"start": 1, "min": 1}))
