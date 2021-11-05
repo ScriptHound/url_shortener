@@ -1,0 +1,6 @@
+fastapi
+tarantool
+python-dotenv
+pytest
+gunicorn
+uvicorn
